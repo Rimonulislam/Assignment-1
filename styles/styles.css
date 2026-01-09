@@ -6,8 +6,8 @@
 
 
 .font-inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
 nav {
@@ -22,7 +22,7 @@ nav {
     max-width: 1600px;
 }
 
-nav .features  {
+nav .features {
     display: flex;
     gap: 32px;
     list-style-type: none;
@@ -35,7 +35,7 @@ nav .features a {
     color: #000000;
 }
 
-.btn{
+.btn {
     font-size: 16px;
     font-weight: 600;
     background-color: #469165;
@@ -44,4 +44,77 @@ nav .features a {
     padding: 12.5px 16px;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+
+.access-btn-point {
+    width: 16px;
+    height: 16px;
+    padding: 9.5px 12px;
+    color: #469165;
+}
+
+section {
+    margin: 0 auto;
+    width: 1600px;
+    height: 674px;
+    padding: 0px;
+    border: 2px solid blue;
+    background-image: url("../assets/hero-bg.png");
+    vertical-align: middle;
+}
+
+.access-btn {
+    max-width: 1360px;
+    max-height: 379px;
+    margin: 115.5px 120px 179.5px 120px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.access-btn1 {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 1000px;
+    width: 229px;
+    height: 35px;
+    padding: 12px 8px;
+    font-weight: 600;
+    color: #469165;
+}
+
+
+#texting h1 {
+    font-size: 72px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.note-taking {
+    color: #469165;
+}
+
+
+section botton .btn-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16;
+}
+
+
+section p {
+    padding: 0px 295px;
+    margin-top: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
 }

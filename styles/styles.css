@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+nav {
+    border: 2px solid red;
+    background-color: #FFFFFF;
+    padding: 16px 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1600px;
+}
+
+nav .features  {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+
+nav .features a {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    padding: 12.5px 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
